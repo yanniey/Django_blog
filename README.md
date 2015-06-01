@@ -19,6 +19,19 @@ The origin tutorial by is very helpful, but some key steps for setting up `Djang
 
 
 
+___
+
+
+#### Use of `Django_markdown`
+
+Django_markdown allows you to write entries in Markdown format(instead of the default Django `Charfield` or `Textfield`)
+
+![Django_markdown](https://github.com/yanniey/Django_blog/blob/master/django%20markdown%20blog.png?raw=true) 
+
+
+___
+
+
 
 #### Install Django_markdown app to create a blog
 
@@ -82,5 +95,6 @@ The origin tutorial by is very helpful, but some key steps for setting up `Djang
 
 	```
 	manage.py collectstatic
-
 	```
+	
+6. Remember to copy the `static` folder on [this page](https://github.com/yanniey/Django_blog/tree/master/static/admin) to your root folder so that your CSS and JavaScript files can be properly rendered. Alternatively, you can try adjust the `STATICFILES_DIR` in `settings.py` to achieve the same result.

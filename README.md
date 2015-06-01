@@ -17,6 +17,9 @@ Tutorial: [`Building a Blog with Django 1.7 in 16 mins`](https://www.youtube.com
 
 The origin tutorial by is very helpful, but some key steps for setting up `Django_markdow` were missing and I needed to reconfigure my local settings, so I thought that I should write down my solutions in case someone else runs into the same problem.
 
+Screenshot:
+
+![Django blog site screenshot](https://github.com/yanniey/Django_blog/blob/master/Blog_screenshot.png?raw=true)
 
 
 ___
